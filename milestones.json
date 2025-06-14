@@ -1,0 +1,116 @@
+[
+  {
+    "title": "Student Block",
+    "description": "Core Student Block Completion, Search and Retrieval, Integration with Database",
+    "due_on": "2025-06-14T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Student (user) Profile",
+    "description": "Build user profile schema, develop pages for saving information, build databases, and integrate with Database",
+    "due_on": "2025-06-15T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Build Scan & Fetch from URLS or Docs feature",
+    "description": "Develop a complete scanning and retrieval from attached docs or links, for Certificates, etc, and integration with Database",
+    "due_on": "2025-06-16T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Fix Asynchronous Run & Pipelining",
+    "description": "Complete Async run of the code blocks",
+    "due_on": "2025-06-18T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Recruiter Block & Profile",
+    "description": "Build a complete Recruiter Block and Recruiter Profile, and integrate with the database",
+    "due_on": "2025-06-20T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Checkpoint 1",
+    "description": "Double-check all the blocks developed till now, ensure successful working of the blocks",
+    "due_on": "2025-06-21T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Scraping from LinkedIn Feature",
+    "description": "Build the Scrape through LinkedIn feature",
+    "due_on": "2025-06-23T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Checkpoint 2",
+    "description": "Double-check all the blocks developed till now, ensure successful working of the blocks",
+    "due_on": "2025-06-24T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Research-Blog-Feature",
+    "description": "Research and plan for blogs functionality (complete circle of reading, writing, writing with AI, storing, fetching, and sharing) and Explore page functionality",
+    "due_on": "2025-06-26T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Develop Blog Feature",
+    "description": "Develop Blogs and Explore Pages",
+    "due_on": "2025-06-30T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Search Feature Expansion",
+    "description": "Expand Search Feature as per the UX plan, to find jobs, to read or discover blogs, and to write blogs",
+    "due_on": "2025-07-02T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Checkpoint 4",
+    "description": "Double-check all the blocks developed till now, ensure successful working of the blocks",
+    "due_on": "2025-07-03T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Build Import Blogs Feature",
+    "description": "Build a functionality to import blogs or content by scraping or uploading",
+    "due_on": "2025-07-05T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Complete overall Backend",
+    "description": "Build all blocks, build pipelines, complete all features to achieve the Backend Readiness",
+    "due_on": "2025-07-10T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Integration with Frontend X Backend",
+    "description": "Complete the application to prepare the Profeshare AI Alpha (v1.0) for testing",
+    "due_on": "2025-07-22T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Alpha (v1.0) Completion",
+    "description": "MVP Development Completion Milestone",
+    "due_on": "2025-07-24T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Alpha Testing",
+    "description": "Testing the alpha site",
+    "due_on": "2025-07-27T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "Alpha Deployment",
+    "description": "Application deployment online",
+    "due_on": "2025-07-29T23:59:59Z",
+    "state": "open"
+  },
+  {
+    "title": "MVP Launch",
+    "description": "Minimum viable product with core functionality delivered",
+    "due_on": "2025-07-31T23:59:59Z",
+    "state": "open"
+  }
+]

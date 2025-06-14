@@ -1,0 +1,67 @@
+[
+  {
+    "name": "priority:high",
+    "color": "d73a4a",
+    "description": "should be treated as a high-priority task"
+  },
+  {
+    "name": "priority:medium",
+    "color": "fbca04",
+    "description": "should be treated as a medium-priority task"
+  },
+  {
+    "name": "priority:low",
+    "color": "0075ca",
+    "description": "can be treated as a low-priority task"
+  },
+  {
+    "name": "type:bug",
+    "color": "d73a4a",
+    "description": "something isn't working"
+  },
+  {
+    "name": "type:feature",
+    "color": "cccccc",
+    "description": "feature in the project"
+  },
+  {
+    "name": "type:documentation",
+    "color": "a2eeef",
+    "description": "improvements and additions to documentation"
+  },
+  {
+    "name": "main-block",
+    "color": "cfd3ff",
+    "description": "this is for a main block of the project"
+  },
+  {
+    "name": "sub-block",
+    "color": "5fdcdc",
+    "description": "this is for a sub-block of the main-block of the project"
+  },
+  {
+    "name": "overdue",
+    "color": "ff9f1c",
+    "description": "issue has already passed the deadline"
+  },
+  {
+    "name": "team:ui/ux",
+    "color": "cccccc",
+    "description": "this task should be taken by ui/ux team"
+  },
+  {
+    "name": "team:frontend",
+    "color": "cccccc",
+    "description": "this task should be taken by the frontend team"
+  },
+  {
+    "name": "team:backend",
+    "color": "cccccc",
+    "description": "this task should be taken by the backend team"
+  },
+  {
+    "name": "done",
+    "color": "0e8a16",
+    "description": "this task is completed"
+  }
+]
