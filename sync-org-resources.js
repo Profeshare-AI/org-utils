@@ -55,6 +55,7 @@ const fs = require("fs");
   }
 
   const repos = await getOrgRepos();
+  console.log(`Discovered ${repos.length} repositories:`, repos);
   const labels = JSON.parse(fs.readFileSync("labels.json"));
   const milestones = JSON.parse(fs.readFileSync("milestones.json"));
 
