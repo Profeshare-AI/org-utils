@@ -18,7 +18,7 @@ const path = require("path");
   }
 
   async function syncIssueTemplates(repoName) {
-    const issueTemplateDir = path.join(".github", "ISSUE_TEMPLATE");
+    const issueTemplateDir = path.join(process.cwd(), ".github", "ISSUE_TEMPLATE");
     const files = fs.readdirSync(issueTemplateDir);
 
     for (const file of files) {
