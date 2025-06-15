@@ -6,22 +6,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  sync:
+  sync-all:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout org-utils repo
         uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: 18
 
-      - name: Install Octokit
+      - name: Install dependencies
         run: npm install @octokit/rest
 
-      - name: Run Sync Script
+      - name: Sync Labels & Milestones
+        run: node sync-org-resources.js
         env:
           GH_TOKEN: ${{ secrets.LABEL_SYNC_TOKEN }}
-        run: node sync-org-resources.js
+
+      - name: Sync Issue Templates
+        run: node sync-issue-templates.js
+        env:
+          GH_TOKEN: ${{ secrets.LABEL_SYNC_TOKEN }}
